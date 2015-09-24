@@ -12,3 +12,10 @@ function totalDigits(num) {
 }
 
 </SCRIPT>
+
+<FORM NAME="TotalNums">
+     The total sum of the digits from 1 to:
+     <INPUT TYPE="text" NAME="charNum">
+     <INPUT TYPE="button" VALUE="Add"
+       onClick="sumDigits(TotalNums.charNum.value)">
+</FORM>
